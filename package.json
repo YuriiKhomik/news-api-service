@@ -5,7 +5,7 @@
   "source": "src/*.html",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-bundle2/dist/",
+    "build": "parcel build src/*.html --public-url /parcel-bundle2/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yurii Khomik <yu.hamster.pl@gmail.com> (https://github.com/YuriiKhomik)",
