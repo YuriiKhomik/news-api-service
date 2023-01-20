@@ -8,7 +8,32 @@
     <link rel="stylesheet" href="./styles/index.scss" />
   </head>
   <body>
+    <div class="form-container">
+      <form class="js-search-form">
+        <label>
+          <input
+            class="form-input"
+            type="text"
+            name="query"
+            placeholder="what to find?"
+            autocomplete="off"
+          />
+
+          <button class="submit-btn" type="submit">Find news</button>
+        </label>
+      </form>
+    </div>
+
     <h1>This is H1 from src/index.html</h1>
+
+    <div class="news-list"></div>
+
+    <div class="loadmore-container">
+      <button type="button" class="btn" data-action="load-more">
+        <span class="spinner"></span>
+        <span class="label">Load more</span>
+      </button>
+    </div>
 
     <script type="module" src="./js/index.js"></script>
   </body>
