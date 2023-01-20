@@ -48,6 +48,7 @@ function onLoadMore() {
   newsApiService.fetchArticles().then(articles => {
     // clearAtriclesContainer();
     appendArticlesMarkup(articles);
+    loadMoreBtn.enable();
   });
 }
 
